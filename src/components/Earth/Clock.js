@@ -81,7 +81,7 @@ export default function Clock() {
         } else {
           setTimeLeft(timeLeftValue); // Actualizamos el tiempo restante
         }
-      }, 500); // Intervalo de actualización cada 1 segundo
+      }, 500);
 
       return () => clearInterval(intervalRef.current); // Limpiamos el intervalo al desmontar
     }
