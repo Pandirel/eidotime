@@ -54,7 +54,7 @@ export default function Clock() {
       // Actualizamos los datos desde la API cada 60 segundos
       apiUpdateIntervalRef.current = setInterval(() => {
         fetchCetusCycle(); // Llamada periódica para mantener los datos actualizados
-      }, 60000); // Cada 60 segundos
+      }, 300000); // Cada 5 minutos
     };
     initializeCycle();
 
