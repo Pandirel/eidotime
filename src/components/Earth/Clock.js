@@ -1,5 +1,5 @@
 "use client";
-import Logo from "@/app/img/Logo.webp";
+import Logo from "/public/Logo.webp";
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 
